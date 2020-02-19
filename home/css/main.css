@@ -1,0 +1,209 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+/*navbar*/
+
+nav {
+	background-color: #2B2B2B !important;
+}
+
+ul > li {
+	padding-left: 112px
+}
+
+.navbar-toggler-icon {
+	color: white !important;
+}
+
+
+/*hero section*/
+
+#banner {
+	background-color: #2B2B2B;
+}
+
+.banner-text {
+	margin-top: 75px;
+	color: white;
+	font-size: 3rem;
+}
+
+.main-btn {
+	background-color: #0B9E49;
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+
+.main-btn > span {
+	font-size: 10px !important;
+	margin-top: -5px;
+	display: block;
+	color: #56BC81;
+}
+
+.banner-img {
+	height: 350px
+}
+
+
+.banner-text > p {
+}
+
+/*about*/
+.info-list {
+	float: left;
+}
+.info-list li {
+	list-style: none;
+	padding: 15px;
+	margin-left: 15px;
+	font-size: 1.5rem;
+}
+
+.info-list li img {
+	height: 30px;
+}
+
+.intro-img {
+	height: 310px;
+}
+
+.intro-img-holder {
+	
+	text-align: right;
+}
+
+/*product details*/
+#product-details {
+	background-image: url(../images/intro-bg.png);
+	background-size: cover;
+	background-position: center;
+	padding: 35px;
+	
+}
+
+
+.detail-text {
+	max-width: 400px; 
+	margin-left: 250px;
+	background-color: white; 
+	padding: 15px;
+}
+
+
+/*demo section*/
+
+.demo {
+	margin-top: 120px;
+	margin-bottom: 120px;
+
+}
+.demo-list {
+	list-style: none;
+	
+}
+
+.demo-list li {
+	padding: 15px;
+}
+
+
+.demo-list li img {
+	height: 20px;
+}
+
+
+/*mobile demo*/
+.mobile-image {
+	
+	width: 50% !important;
+	margin: 0 auto;
+}
+
+/*footer*/
+
+footer {
+	background-color: #2B2B2B !important;
+	color: white;
+	height: 230px;
+}
+
+footer .container {
+	padding: 25px;
+}
+
+/*media queries*/
+
+
+
+
+@media(max-width: 991px) {
+	.banner-img-holder {
+		text-align: center;
+	}
+
+/*	*/
+	.banner-text {
+		text-align: center;
+	}
+/* */
+	nav {
+		
+		text-align: center;
+	}
+/* */
+	
+.intro-img-holder {
+	
+	text-align: center !important;
+}
+
+	.intro-img {
+		margin: 0 auto !important;
+}
+	
+	.info-list {
+	float: center !important;
+} 
+	
+	
+	.info-list li {
+	
+	font-size: 1rem !important;
+}
+	
+.demo .row .col-lg-6:nth-child(1) {
+	text-align: center;
+}	
+	
+}
+
+
+
+
+@media(max-width: 750px) {
+	.detail-text {
+		margin-left: auto!important;
+	}
+	
+	
+	.banner-text {
+	margin-top: 75px;
+	color: white;
+	font-size: 2rem;
+}
+}
+
+
+
+@media(max-width: 450px) {
+
+	
+	.banner-text {
+	font-size: 1.5rem;
+}
+}
