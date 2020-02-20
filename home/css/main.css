@@ -120,7 +120,6 @@ ul > li {
 /*mobile demo*/
 .mobile-image {
 	
-	width: 50% !important;
 	margin: 0 auto;
 }
 
@@ -218,7 +217,13 @@ footer .container {
 	
 	.demo-list li {
 	font-size: 12px;
+	border-bottom: 1px solid #eee;
 }
+	
+	.info-list li span{
+		font-size: 13px;
+	}
+	
 
 }
 
